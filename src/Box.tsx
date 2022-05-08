@@ -2,7 +2,7 @@ import { FC, useRef, useState } from 'react';
 import { useFrame } from '@react-three/fiber'
 import { Mesh } from 'three';
 
-const Box: FC = (props) => {
+const Box: FC = () => {
   const ref = useRef({} as Mesh);
   const [isHovered, setIsHovered] = useState(false)
 
